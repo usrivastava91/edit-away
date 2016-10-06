@@ -1,0 +1,24 @@
+
+{
+    "manifest_version": 2,
+
+    "name": "Edit Away",
+    "version": "1.0",
+
+   "browser_action":{
+     "default_title":"Activate"
+   },   
+
+    "icons": {"128": "pencils.png"},
+
+
+    "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+]
+
+}
